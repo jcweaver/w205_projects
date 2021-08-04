@@ -1,0 +1,500 @@
+   19  ls -l
+   20  exit
+   21  clear
+   22  docker ps
+   23  clear
+   24  docker ps
+   25  docker run -it -v ~/w205:/w205 midsw205/base:latest bash
+   26  docker ps
+   27  docker ps -a
+   28  docker rm -f 6fbc2a3e2147
+   29  docker ps -a
+   30  docker images
+   31  exit
+   32  docker pull midsw205/base:latest
+   33  docker pull midsw205/base:0.1.8
+   34  docker pull midsw205/base:0.1.9
+   35  docker pull redis
+   36  docker pull confluentinc/cp-zookeeper:latest
+   37  docker pull confluentinc/cp-kafka:latest
+   38  docker pull midsw205/spark-python:0.0.5
+   39  docker pull midsw205/spark-python:0.0.6
+   40  docker pull midsw205/cdh-minimal:latest
+   41  docker pull midsw205/hadoop:0.0.2
+   42  docker pull midsw205/presto:0.0.1
+   43  sudo chown -R jupyter:jupyter ~/w205
+   44  cd ~/w205/course-content
+   45  git pull --all
+   46  docker ps -a
+   47  docker network ls
+   48  cd ..
+   49  cd project-1-jcweaver/
+   50  git status
+   51  git add README.md 
+   52  git commit -m "Updates to part 2"
+   53  git push origin assignment
+   54  git push origin assignment
+   55  whoami
+   56  clear
+   57  sudo chown -R jupyter:jupyter ~/w205
+   58  cd ~/w205/course-content
+   59  git pull --all
+   60  cd
+   61  docker ps -a
+   62  docker network ls
+   63  docker pull midsw205/base:latest
+   64  docker pull midsw205/base:0.1.8
+   65  docker pull midsw205/base:0.1.9
+   66  docker pull redis
+   67  docker pull confluentinc/cp-zookeeper:latest
+   68  docker pull confluentinc/cp-kafka:latest
+   69  docker pull midsw205/spark-python:0.0.5
+   70  docker pull midsw205/spark-python:0.0.6
+   71  docker pull midsw205/cdh-minimal:latest
+   72  docker pull midsw205/hadoop:0.0.2
+   73  docker pull midsw205/presto:0.0.1
+   74  exit
+   75  clear
+   76  docker-compose
+   77  sudo apt update
+   78  sudo apt install docker-compose
+   79  docker-compose
+   80  clear
+   81  docker-compose
+   82  docker-compose up -d
+   83  mkdir ~/w205/redis-standalone
+   84  cd ~/w205/redis-standalone
+   85  cp ../course-content/05-Storing-Data-II/example-0-docker-compose.yml docker-compose.yml
+   86  docker-compose up -d
+   87  docker-compose ps
+   88  docker-compose logs redis
+   89  ipython
+   90  pip install redis
+   91  ipython
+   92  docker-compose down
+   93  docker-compose ps
+   94  docker ps -a
+   95  clear
+   96  mkdir ~/w205/redis-cluster
+   97  cd ~/w205/redis-cluster
+   98  cp ../course-content/05-Storing-Data-II/example-1-docker-compose.yml docker-compose.yml
+   99  docker-compose up -d
+  100  docker-compose ps
+  101  docker ps -a
+  102  docker-compose logs redis
+  103  docker-compose exec mids bash
+  104  docker-compose exec mids bash
+  105  docker-compose down
+  106  docker-compose ps
+  107  docker ps -a
+  108  docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bash
+  109  docker ps -a
+  110  docker run -it --rm -v ~/w205:/w205 midsw205/base:latest bash
+  111  docker-compose ps
+  112  docker ps -a
+  113  clear
+  114  docker-compose up -d
+  115  docker-compose ps
+  116  docker-compose down
+  117  cp ../course-content/05-Storing-Data-II/example-2-docker-compose.yml docker-compose.yml
+  118  docker-compose up -d
+  119  docker-compose ps
+  120  docker-compose exec mids jupyter notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root
+  121  docker-compose down
+  122  docker-compose ps
+  123  docker ps -a
+  124  cp ../course-content/05-Storing-Data-II/example-3-docker-compose.yml docker-compose.yml
+  125  docker-compose up -d
+  126  docker-compose ps
+  127  docker ps -a
+  128  docker-compose logs mids
+  129  docker-compose down
+  130  docker-compose ps
+  131  docker ps -a
+  132  cp ../course-content/05-Storing-Data-II/example-4-docker-compose.yml docker-compose.yml
+  133  cd ~/w205/
+  134  curl -L -o trips.csv https://goo.gl/QvHLKe
+  135  cd ~/w205/redis-cluster
+  136  docker-compose up -d
+  137  docker-compose logs mids
+  138  docker ps -a
+  139  clear
+  140  docker-compose down
+  141  docker-compose ps
+  142  docker ps -a
+  143  exit
+  144  docker ps -a
+  145  docker ps -a
+  146  docker ps -a
+  147  cd w205/
+  148  ls -l
+  149  exit
+  150  whoami
+  151  clear
+  152  cd w205/
+  153  cd project-1-jcweaver/
+  154  git status
+  155  git add README.md 
+  156  git commit -m "updates"
+  157  git push origin assignment
+  158  git status
+  159  git add Project_1.ipynb 
+  160  git commit -m "Some updates to the jupyter notebook"
+  161  git push origin assignment
+  162  clear
+  163  cd w205/
+  164  cd project-1-jcweaver/
+  165  git status
+  166  git add README.md 
+  167  git add Project_1.ipynb 
+  168  git commit -m "updates"
+  169  git push origin assignment
+  170  git status
+  171  git add Project_1.ipynb 
+  172  git commit -m "Further updates on Part 3"
+  173  git push origin assignment
+  174  exit
+  175  sudo chown -R jupyter:jupyter ~/w205
+  176  cd ~/w205/course-content
+  177  git pull --all
+  178  docker ps -a
+  179  docker network ls
+  180  docker pull midsw205/base:latest
+  181  docker pull midsw205/base:0.1.8
+  182  docker pull midsw205/base:0.1.9
+  183  docker pull redis
+  184  docker pull confluentinc/cp-zookeeper:latest
+  185  docker pull confluentinc/cp-kafka:latest
+  186  docker pull midsw205/spark-python:0.0.5
+  187  docker pull midsw205/spark-python:0.0.6
+  188  docker pull midsw205/cdh-minimal:latest
+  189  docker pull midsw205/hadoop:0.0.2
+  190  docker pull midsw205/presto:0.0.1
+  191  cd .. 
+  192  cd project-1-jcweaver/
+  193  git status
+  194  git add Project_1.ipynb 
+  195  git commit -m "Final updates"
+  196  git push origin assignment
+  197  exit
+  198  cd w205/project-1-jcweaver/
+  199  git status
+  200  git add README.md 
+  201  git add Project_1.ipynb 
+  202  git commit -m "A few more updates"
+  203  git push origin assignment
+  204  git status
+  205  git add Project_1.ipynb 
+  206  git commit -m "Another update"
+  207  git push origin assignment
+  208  exit
+  209  clear
+  210  cd w205/kafka/
+  211  docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:29092 --topic foo --from-beginning --max-messages 42
+  212  docker-compose up -d
+  213  docker ps -a
+  214  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  215  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  216  clear
+  217  mkdir ~/w205/kafka
+  218  cd w205/kafka/
+  219  cp ~/w205/course-content/06-Transforming-Data/docker-compose.yml ~/w205/kafka/
+  220  docker-compose up -d
+  221  docker-compose ps
+  222  docker-compose logs zookeeper | grep -i binding
+  223  docker-compose logs zookeeper | grep binding
+  224  docker-compose logs kafka | grep -i started
+  225  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  226  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  227  docker-compose exec kafka bash -c "seq 42 | kafka-console-producer --request-required-acks 1 --broker-list localhost:29092 --topic foo && echo 'Produced 42 messages.'"
+  228  docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:29092 --topic foo --from-beginning --max-messages 42
+  229  docker-compose down
+  230  docker-compose ps
+  231  docker ps -a
+  232  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  233  cat github-example-large.json 
+  234  docker-compose logs -f kafka
+  235  docker-compose logs -f kafka
+  236  clear
+  237  cd w205/kafka/
+  238  docker-compose exec kafka kafka-console-consumer --bootstrap-server localhost:29092 --topic foo --from-beginning --max-messages 42
+  239  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json"
+  240  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.'"
+  241  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.[]' -c"
+  242  docker-compose exec mids bash -c "cat /w205/kafka/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  243  docker-compose exec kafka kafka-console-consumer --bootstrap-server kafka:29092 --topic foo --from-beginning --max-messages 42
+  244  docker-compose exec kafka kafka-console-consumer --bootstrap-server kafka:29092 --topic foo --from-beginning --max-messages 100
+  245  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  246  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  247  docker-compose down
+  248  docker-compose ps
+  249  docker ps -a
+  250  exit
+  251  exit
+  252  sudo chown -R jupyter:jupyter ~/w205
+  253  cd w205/course-content/
+  254  git pull --all
+  255  cd
+  256  docker ps -a
+  257  docker network ls
+  258  docker pull midsw205/base:latest
+  259  docker pull midsw205/base:0.1.8
+  260  docker pull midsw205/base:0.1.9
+  261  docker pull redis
+  262  docker pull confluentinc/cp-zookeeper:latest
+  263  docker pull confluentinc/cp-kafka:latest
+  264  docker pull midsw205/spark-python:0.0.5
+  265  docker pull midsw205/spark-python:0.0.6
+  266  docker pull midsw205/cdh-minimal:latest
+  267  docker pull midsw205/hadoop:0.0.2
+  268  docker pull midsw205/presto:0.0.1
+  269  exit
+  270  mkdir ~/w205/spark-with-kafka
+  271  clear
+  272  cd ~/w205/spark-with-kafka
+  273  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  274  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  275  docker-compose exec spark pyspark
+  276  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  277  docker-compose down
+  278  docker-compose ps
+  279  docker ps -a
+  280  cd ..
+  281  ls
+  282  ls -lh
+  283  curl -L -o github-example-large.json https://goo.gl/Y4MD58
+  284  cd spark-with-kafka/
+  285  docker-compose up -d
+  286  docker-compose up -d
+  287  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  288  clear
+  289  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  290  docker-compose exec mids bash -c "cat /w205/github-example-large.json"
+  291  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.'"
+  292  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.[]' -c"
+  293  ls
+  294  cat docker-compose.yml 
+  295  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t foo && echo 'Produced 100 messages.'"
+  296  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  297  docker-compose exec spark pyspark
+  298  exit
+  299  clear
+  300  cd ~/w205/spark-with-kafka
+  301  cp ~/w205/course-content/07-Sourcing-Data/docker-compose.yml .
+  302  ls
+  303  docker-compose up -d
+  304  docker-compose logs -f kafka
+  305  exit
+  306  clear
+  307  cd ~/w205/spark-with-kafka
+  308  docker-compose ps
+  309  docker ps -a
+  310  docker-compose exec kafka kafka-topics --create --topic foo --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  311  docker-compose exec kafka kafka-topics --describe --topic foo --zookeeper zookeeper:32181
+  312  docker-compose exec kafka bash -c "seq 42 | kafka-console-producer --request-required-acks 1 --broker-list kafka:29092 --topic foo && echo 'Produced 42 messages.'"
+  313  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  314  clear
+  315  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  316  clear
+  317  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t foo -o beginning -e"
+  318  clear
+  319  docker-compose down
+  320  exit
+  321  sudo chown -R jupyter:jupyter ~/w205
+  322  cd w205/course-content/
+  323  git pull --all
+  324  cd
+  325  docker ps -a
+  326  docker network ls
+  327  docker pull midsw205/base:latest
+  328  docker pull midsw205/base:0.1.8
+  329  docker pull midsw205/base:0.1.9
+  330  docker pull redis
+  331  docker pull confluentinc/cp-zookeeper:latest
+  332  docker pull confluentinc/cp-kafka:latest
+  333  docker pull midsw205/spark-python:0.0.5
+  334  docker pull midsw205/spark-python:0.0.6
+  335  docker pull midsw205/cdh-minimal:latest
+  336  docker pull midsw205/hadoop:0.0.2
+  337  docker pull midsw205/presto:0.0.1
+  338  cd w205/
+  339  ls
+  340  git clone https://github.com/mids-w205-crook/project-2-jcweaver.git
+  341  cd project-2-jcweaver/
+  342  git branch assignment
+  343  git status
+  344  git checkout assignment
+  345  git status
+  346  ls
+  347  exit
+  348  cd ~/w205/spark-with-kafka-and-hdfs
+  349  (base) jupyter@tensorflow-2-3-20210111-105747:~/w205/spark-with-kafka-and-hdfs$ 
+  350  docker-compose exec cloudera hadoop fs -ls /tmp/
+  351  docker ps -a
+  352  clear
+  353  docker-compose exec cloudera hadoop fs -ls /tmp/
+  354  clear
+  355  docker-compose exec kafka kafka-topics --create --topic players --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  356  docker-compose exec mids bash -c "cat /w205/players.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t players"
+  357  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t players -o beginning -e"
+  358  docker-compose exec spark pyspark
+  359  exit
+  360  cd ~/w205/spark-with-kafka-and-hdfs
+  361  cd ~/w205
+  362  curl -L -o players.json https://goo.gl/vsuCpZ
+  363  cd ~/w205/spark-with-kafka-and-hdfs
+  364  docker-compose exec cloudera hadoop fs -ls /tmp/
+  365  docker-compose exec cloudera hadoop fs -ls /tmp/players/
+  366  clear
+  367  docker-compose exec cloudera hadoop fs -ls /tmp/players/
+  368  docker-compose exec cloudera hadoop fs -ls /tmp/
+  369  docker-compose exec cloudera hadoop fs -ls /tmp/extracted_players/
+  370  clear
+  371  cd ~/w205
+  372  ls -lh
+  373  cd ~/w205/spark-with-kafka-and-hdfs
+  374  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t commits"
+  375  docker-compose exec kafka kafka-topics --create --topic commits --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  376  docker-compose exec mids bash -c "cat /w205/github-example-large.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t commits"
+  377  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t commits -o beginning -e"
+  378  raw_commits = spark.read.format("kafka").option("kafka.bootstrap.servers", "kafka:29092").option("subscribe","commits").option("startingOffsets", "earliest").option("endingOffsets", "latest").load() 
+  379  docker-compose exec cloudera hadoop fs -ls /tmp/
+  380  docker-compose exec cloudera hadoop fs -ls /tmp/commits/
+  381  docker-compose exec cloudera hadoop fs -ls /tmp/some_commit_info/
+  382  docker-compose down
+  383  docker-compose ps
+  384  docker ps -a
+  385  exit
+  386  mkdir ~/w205/spark-with-kafka-and-hdfs
+  387  cd ~/w205/spark-with-kafka-and-hdfs
+  388  cp ~/w205/course-content/08-Querying-Data/docker-compose.yml .
+  389  docker-compose up -d
+  390  docker-compose logs -f kafka
+  391  exit
+  392  sudo chown -R jupyter:jupyter ~/w205
+  393  cd ~/w205/course-content
+  394  git pull --all
+  395  cd
+  396  docker ps -a
+  397  docker network ls
+  398  docker ps -a
+  399  docker pull midsw205/base:latest
+  400  docker pull midsw205/base:0.1.8
+  401  docker pull midsw205/base:0.1.9
+  402  docker pull redis
+  403  docker pull confluentinc/cp-zookeeper:latest
+  404  docker pull confluentinc/cp-kafka:latest
+  405  docker pull midsw205/spark-python:0.0.5
+  406  docker pull midsw205/spark-python:0.0.6
+  407  docker pull midsw205/cdh-minimal:latest
+  408  docker pull midsw205/hadoop:0.0.2
+  409  docker pull midsw205/presto:0.0.1
+  410  exit
+  411  cd w205/project-2-jcweaver/
+  412  git status
+  413  ls
+  414  docker-compose exec cloudera hadoop fs -ls /tmp/
+  415  docker-compose exec kafka kafka-topics --create --topic assessments --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  416  curl -L -o assessment-attempts-20180128-121051-nested.json https://goo.gl/ME6hjp
+  417  ls -lh
+  418  docker-compose exec mids bash -c "cat /w205/project-2-jcweaver/assessment-attempts-20180128-121051-nested.json | jq '.[]' -c | kafkacat -P -b kafka:29092 -t assessments"
+  419  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t assessments -o beginning -e"
+  420  cd w205/
+  421  ls
+  422  cd project-
+  423  cd project-2-jcweaver/
+  424  ls -l
+  425  git status
+  426  cp ~/w205/course-content/08-Querying-Data/docker-compose.yml .
+  427  ls -l
+  428  git status
+  429  docker-compose up -d
+  430  docker-compose ps
+  431  docker ps -a
+  432  docker-compose exec spark bash
+  433  docker-compose exec spark bash
+  434  docker-compose exec spark env PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS='notebook --no-browser --port 8888 --ip 0.0.0.0 --allow-root' pyspark
+  435  docker-compose down
+  436  exit
+  437  docker-compose exec cloudera hadoop fs -ls /tmp/
+  438  cd w205/project-2-jcweaver/
+  439  docker-compose exec cloudera hadoop fs -ls /tmp/
+  440  docker-compose exec cloudera hadoop fs -ls /tmp/assessments/
+  441  docker-compose down
+  442  docker ps -a
+  443  ls -l
+  444  docker-compose ps
+  445  git status
+  446  git add Project_2.ipynb 
+  447  git add docker-compose.yml 
+  448  git commit -m "Some updates"
+  449  git push origin assignment
+  450  git status
+  451  exit
+  452  cd ~/w205/flask-with-kafka
+  453  clear
+  454  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t events -o beginning -e"
+  455  docker-compose exec mids bash -c "kafkacat -C -b kafka:29092 -t events -o beginning -e"
+  456  exit
+  457  cp ~/w205/course-content/09-Ingesting-Data/docker-compose.yml .
+  458  cd ~/w205/flask-with-kafka
+  459  docker-compose exec kafka kafka-topics --create --topic events --partitions 1 --replication-factor 1 --if-not-exists --zookeeper zookeeper:32181
+  460  clear
+  461  ls -lh
+  462  cp ~/w205/course-content/09-Ingesting-Data/basic_game_api.py .
+  463  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka/basic_game_api.py flask run
+  464  cp ~/w205/course-content/09-Ingesting-Data/game_api.py .
+  465  ls -lh
+  466  docker-compose exec mids env FLASK_APP=/w205/flask-with-kafka/game_api.py flask run
+  467  docker-compose down
+  468  docker-compose ps
+  469  docker ps -a
+  470  exit
+  471  mkdir temp
+  472  cd temp/
+  473  telnet
+  474  sudo apt-get install telnet
+  475  telnet
+  476  clear
+  477  telnet google.com 80
+  478  clear
+  479  telnet google.com 80
+  480  telnet google.com 80
+  481  clear
+  482  GET / HTTP/1.1
+  483  telnet httpbin.org 80
+  484  clear
+  485  openssl s_client -connect google.com:443
+  486  openssl s_client -connect api.wheretheiss.at:443
+  487  clear
+  488  mkdir ~/w205/flask-with-kafka
+  489  cd ~/w205/flask-with-kafka
+  490  cp ~/w205/course-content/09-Ingesting-Data/docker-compose.yml .
+  491  docker-compose up -d
+  492  docker-compose ps
+  493  docker ps -a
+  494  docker-compose exec mids curl http://localhost:5000/
+  495  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  496  docker-compose exec mids curl http://localhost:5000/
+  497  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  498  docker-compose exec mids curl http://localhost:5000/purchase_a_sword
+  499  clear
+  500  exit
+  501  cd w205/
+  502  cd project-2-jcweaver/
+  503  docker ps -a
+  504  docker-compose ps
+  505  docker-compose exec cloudera hadoop fs -ls /tmp/
+  506  docker-compose exec cloudera hadoop fs -ls /tmp/
+  507  docker-compose exec cloudera hadoop fs -ls /tmp/
+  508  git status
+  509  git add Project_2.ipynb 
+  510  git commit -m "Project 2 updates"
+  511  history > jcweaver-history.txt
+  512  git status
+  513  git add jcweaver-history.txt 
+  514  git commit -m "Adding history file"
+  515  git push origin assignment
+  516  git status
+  517  docker-compose down
+  518  history > jcweaver-history.txt
